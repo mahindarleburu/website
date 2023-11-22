@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bleuming.com</title>
+	<!-- <link rel="stylesheet" type="text/css" href="/home/lenovo/Desktop/Bleuming/bleumingMahi.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style type="text/css">
+    	
+    	html,body{
+	overflow-x: hidden;
+}
+.body{
+	margin:0;
+	padding: 0;
+}
+
+ul > li.active .toggle-tabs i{
+	color:#49b475 !important;
+}
+
+ul > li.active .toggle-p {
+	color:#49b475 !important;
+}
+
+.head-name{
+	font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    max-width: 100%;
+    white-space: normal;
+}
+
+.m-b-30{
+	margin-bottom: 30px;
+}
+
+.m-b-40{
+	margin-bottom: 40px;
+}
+
+.m-b-50{
+	margin-bottom: 50px;
+}
+
+.m-b-80{
+	margin-bottom: 80px;
+}
+
+.m-t-80{
+	margin-top: 80px;
+}
+
+.down-icon{
+	position: absolute;
+	font-size: 20px !important;
+	padding-left: 8px;
+	margin-top: -5px;
+}
+
+.large{
+	font-size: 72px;
+    line-height: 80px;
+    font-weight: 100;
+}
+.para-text{
+	    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hello {
+	background-position: center;
+  	background-size: cover;
+    background-image: url("image1.jpg");
+}
+
+.hi {
+	background-position: center;
+  	background-size: cover;
+    background-image: url("image7.jpg");
+}
+
+.list-inline{
+	display: inline-block;
+}
+
+.list-none{
+	list-style: none;
+}
+
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float:right;
+}
+
+.pr{
+	position: relative;
+}
+
+.pa{
+	position: absolute;
+}
+
+.bdr-all-1{
+	border-radius: 1px solid #ccc !important;
+}
+.bdr-b-1{
+	border-bottom: 1px solid #ccc !important;
+}
+.bdr-l-1{
+	border-left:1px solid rgba(255, 255, 255, 0.2);
+}
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-image{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left:50%;
+}
+
+.btn-new{
+	border: 3px solid #f5f5f5;
+    border-radius: 0;
+    padding-left: 30px;
+    overflow: hidden;
+    padding-right: 30px;
+    color:white;
+    background-color: transparent;
+}
+
+.btn-new:hover{
+	border: 3px solid #f5f5f5;
+	overflow: hidden;
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:white;
+    background-color: #f5f5f5;
+}
+
+
+
+.build-bttn{
+	border:2px solid #47b475 !important;
+	color:#47b475;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: transparent;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn:hover{
+	color:white !important;
+	font-weight: bold !important;
+	background-color: #47b475;
+}
+
+
+.build-bttn-reverse{
+	border:2px solid #47b475 !important;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: #47b475;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn-reverse:hover{
+	color:#666 !important;
+	font-weight: bold !important;
+	background-color: #fff;
+	border:2px solid #fff !important;
+}
+
+
+.build-bttn-black{
+	border:2px solid #ffffff !important;
+	color:#ffffff;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: transparent;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn-black:hover{
+	color:black !important;
+	font-weight: bold !important;
+	background-color: #ffffff;
+}
+
+.above-footer{
+	background-position: center;
+  	background-size: cover;
+    background-image: url("image20.jpg");
+    position: relative;
+
+}
+
+.layer {
+    background-color:#363748b8;
+    position: absolute;
+  
+}
+
+
+    </style>
+
+
+</head>
+<body style="" >
+
+<div>
+
+	<div class="container-fluid" style="background-color: #333;position:fixed; overflow: hidden;top: 0;
+  width: 100%;padding: 10px; border-bottom: 1px solid #565656;z-index:999;">
+			
+		<div class="list-inline" style="padding-left: 30px;font-size: 25px; font-weight:bold;color:#f7f7f7;">
+			F O U N D A R Y 
+		</div>
+
+		<div class="list-inline pull-right" style="color:#ababaa; font-size: 10px !important;">
+			
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				HOME<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				PAGES<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				ELEMENTS<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				PORTFOLIO<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				SHOP<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 20px 0px 20px;">
+				BLOG<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline " style="padding: 0px 20px 0px 20px;">
+				<i class="fa fa-search" style="padding-left: 15px; font-size: 15px;"></i>
+			</h5>
+			<h5 class="list-inline" style="padding: 0px 20px 0px 20px;">
+				<i class="fa fa-briefcase" style="padding-left: 8px;"></i>
+			</h5>
+			<h5 class="list-inline head-name" style="padding: 0px 30px 0px 20px;">
+				ENG<i class="fa fa-angle-down down-icon" style="padding-left: 8px;"></i>
+			</h5>
+		</div>
+	</div>
+
+	<div class="hello col-sm-12"  style="height:500px;top:50%;position:relative; color:black; font-family: 'Raleway', sans-serif;">
+
+		<div class="row" style="color:#f5f5f5;">
+            <div class="col-sm-offset-1 text-center col-sm-10" style="padding-top: 30px;">
+	                <div>
+	                <h1 class="m-b-40  large">Foundry brings your content to life in stunning clarity</h1>
+	                <h6 class="m-b-40" style=" letter-spacing: 2px; font-weight: 700; text-transform: uppercase;">A complete block-based solution</h6>
+	                <p class="para-text m-b-40">
+	                    Build beautiful, contemporary sites in just moments
+	                    <br>with Foundry and Variant Page Builder.
+	                </p>
+               		</div>
+               		<button class="build-bttn-black" style="letter-spacing: 1px;margin-top: 20px;"> START EXPLORING</button>
+            </div>
+            
+        </div>
+	</div>
+
+	<div class="row col-md-8 col-md-offset-2 text-center m-b-80 m-t-80" style="font-family: 'Raleway', sans-serif;">
+		<h1 class="m-b-40" style="font-size: 55px;">Sleek, Flexible & Stylish.</h1>
+		<p class="" style="font-weight: 400;color:#666;font-size: 13px; line-height: 24px;">
+		Foundry is a remarkably complete template offering you a plethora of handcrafted design elements. Whether promoting a product, service or portfolio - Foundry's unique and flexible style has you covered.</p>
+	</div>
+
+
+	<div class="">
+
+		<div class="col-md-7 col-lg-7 col-sm-6 text-center " style="min-height: 300px;">
+
+			<img src="image16.jpg" alt="name" style="width:700px;height:420px;border-radius: 5px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+			
+		</div>
+
+		<div class="col-md-4 col-lg-4 col-md-offset-1 col-sm-5 col-sm-offset-1" style='font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;padding-top:60px;padding-right: 60px;'>
+
+			<h3 style=" font-weight: 100;color: #292929;font-size: 32px;line-height: 40px;">Build a slick, modern site faster than ever</h3>
+			<p style="font-size: 13px;line-height: 24px; color:#666;">
+				Foundry is your complete design toolkit, built from the ground up to be flexible, extensible and stylish. Building slick, contemporary sites has never been this easy!
+            </p>
+            <div>
+            	<button class="build-bttn" style="letter-spacing: 1px;margin-top: 20px;"> EXPLORE FOUNDRY</button>
+            </div>
+
+		</div>
+	</div>
+
+
+	<div class="row col-sm-12 col-md-10 col-md-offset-1 text-center m-b-50" style="font-family: 'Raleway', sans-serif;margin-top: 120px;margin-bottom: 60px;">
+		<h3 style="font-size: 32px;line-height: 40px;font-weight: 300;color:#666;">Foundry gives you the flexibility to build your site using purpose-made content blocks.</h3>
+	</div>
+
+	<div class="" style="font-family: 'Raleway', sans-serif;">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center m-b-80">
+			
+			<i class="fa fa-qrcode m-b-30" style="color:#49b475;font-size: 90px;"></i>
+			<h5 style="text-transform: uppercase;letter-spacing: 4px;">Expert, Modular Design</h5>
+			<p style="font-weight: 400; color:#666;font-size: 13px;line-height: 24px;padding-top: 20px;">
+				Customers love our block-based approach to template building, <br>
+				it makes assembling beautiful pages fast and enjoyable, leaving <br>
+				more time to craft your perfect layout.
+			</p>
+			
+		</div>
+
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center m-b-80">
+			<i class="fa fa-heart-o m-b-30" style="color:#49b475;font-size: 90px;"></i>
+			<h5 style="text-transform: uppercase;letter-spacing: 4px;">FLEXIBILITY FOR DEVELOPERS</h5>
+			<p style="font-weight: 400; color:#666;font-size: 13px;line-height: 24px;padding-top: 20px;">
+				We haven't forgotten developers, that's why we've built Foundry  <br>
+				from the ground-up as a powerful, easy to understand framework  <br>
+				with a particular focus on code readability.
+			</p>
+		</div>
+	</div>
+
+	<div class="">
+
+		<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1" style='font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;padding-top:30px;padding-right: 30px;padding-left: 0px;'>
+
+			<h3 style=" font-weight: 100;color: #292929;font-size: 28px;line-height: 40px;">Get started fast with one of our unique, pre-built concepts.</h3>
+			<p style='font-size: 16px;line-height: 24px;padding-top: 30px;font-weight: 400; color:#666;width:102%;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;'>
+				We've built 10 fresh and distinct concepts to showcase Foundry's adaptability for almost any purpose.
+            </p>
+
+            <div style="background-color: #f8f8f8;padding:30px;width:110%;margin-top: 40px;">
+
+            	<p style='font-weight: 400;font-size: 13px; line-height: 24px;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;'>
+            	    “Stunning design, prompt support with an easy to use site builder make this and outstanding product. Well done Medium Rare!”
+                </p>
+
+                <div style="margin:20px 0px 0px 15px;">
+                	<img src="mahi.jpeg" style="width:60px;border-radius: 60px;">
+
+                	<span style='padding-left: 20px;color:#666;font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;'>Mahindar Leburu - Themeforest</span>
+                </div>
+
+            </div>
+		</div>
+
+		<div class="col-md-6 col-sm-6 text-center " >
+
+			<img src="image19.jpg" alt="name" style="margin-left:15px;margin-right:-200px;width:600px;height:520px;border-radius: 5px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">		
+		</div>
+	</div>
+
+	<div class="col-md-12 col-sm-12 hi" style='width:100% ;height:500px;font-weight: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:70px;color:#fff;padding-top: 100px;'>
+
+		
+		<div class="col-md-8 col-md-offset-2 text-center col-sm-10 col-sm-offset-1">
+
+			<div style="margin:20px 0px 0px 15px;">
+                	<img src="mahi.jpeg" style="width:50px;border-radius: 60px;">
+                	<img src="mahi.jpeg" style="width:50px;border-radius: 60px;margin-left: 40px;">
+                	<img src="mahi.jpeg" style="width:50px;border-radius: 60px;margin-left: 40px;">
+                	<img src="mahi.jpeg" style="width:50px;border-radius: 60px;margin-left: 40px;">
+                	<img src="mahi.jpeg" style="width:50px;border-radius: 60px;margin-left: 40px;">
+                	
+            </div>
+			
+		
+			<h1 style='font-size: 32px;line-height: 48px;font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;margin-bottom: 40px;'>People just like you are already loving Foundry</h1>
+
+			<p style="font-size: 16px;  font-weight: 400; line-height: 28px;">It's clear to see just how seriously these guys take design. I've never come across a template with the level of polish as this - and don't even get me started on the page builder, there is simply NO competition. Customer for life.</p>
+		</div>
+		
+	</div>
+
+
+	<div class="col-md-8 col-md-offset-2 col-sm-12 text-center" style='font-weight: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:70px;margin-bottom: 100px;'>
+
+		<h1 style='font-size: 40px;line-height: 48px;font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;margin-bottom: 60px;'>Flexible, Adaptable & Timeless.</h1>
+
+		<ul class="nav " style="display: inline-block;margin-bottom: 40px;">
+		    <li class="active" style="display: inline-block;">
+		    	<a class="toggle-tabs" data-toggle="tab" href="#home">
+		    		<i class="	fa fa-clone" style="color:#939393;font-size: 65px;"> </i>
+		    		<p class="toggle-p" style="padding-top:20px;font-weight: 700;  letter-spacing: 1px;  font-size: 13px;  color: #b1b1b0;">HISTORY</p>
+		    	</a>
+		    </li>
+		    <li style="display: inline-block;padding-left: 90px;">
+		    	<a class="toggle-tabs" data-toggle="tab" href="#menu1">
+		    		<i class="fa fa-cube" style="color:#939393;font-size: 65px;"> </i>
+		    	
+		    	<p class="toggle-p" style="padding-top:20px;font-weight: 700;  letter-spacing: 1px;  font-size: 13px;  color: #b1b1b0;">APPROACH</p>
+		    	</a>
+		    </li>
+		    <li style="display: inline-block;padding-left: 90px;">
+		    	<a class="toggle-tabs" data-toggle="tab" href="#menu2">
+		    		<i class="fa fa-line-chart" style="color:#939393;font-size: 65px;"> </i>
+		    	
+		    	<p class="toggle-p" style="padding-top:20px;font-weight: 700;  letter-spacing: 1px;  font-size: 13px;  color: #b1b1b0;">CULTURE</p>
+		    	</a>
+		    </li>
+		    <li style="display: inline-block;padding-left: 90px;">
+		    	<a class="toggle-tabs" data-toggle="tab" href="#menu3">
+		    		<i class="fa fa-tasks" style="color:#939393;font-size: 65px;"> </i>
+		    	
+		    	<p class="toggle-p" style="padding-top:20px;font-weight: 700;  letter-spacing: 1px;  font-size: 13px;  color: #b1b1b0;">METHOD</p>
+		    	</a>
+		    </li>
+	    </ul>
+
+		<div class="tab-content">
+			    <div id="home" class="tab-pane fade in active">
+			      <p style="font-weight: 400;font-size: 13px;line-height: 24px;color:#666;letter-spacing: 1px;">
+			      	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,<br> 
+			      	eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam <br>
+			      	voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.
+			      </p>
+			    </div>
+			    <div id="menu1" class="tab-pane fade">
+			      <p style="font-weight: 400;font-size: 13px;line-height: 24px;color:#666;letter-spacing: 1px;">
+			      	Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius <br>
+			      	modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum <br>
+			      	exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+			      </p>
+			    </div>
+			    <div id="menu2" class="tab-pane fade">
+			      <p style="font-weight: 400;font-size: 13px;line-height: 24px;color:#666;letter-spacing: 1px;">
+			      	At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br>
+			      	quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia <br>
+			      	mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+			      </p>
+			    </div>
+			    <div id="menu3" class="tab-pane fade">
+			      <p style="font-weight: 400;font-size: 13px;line-height: 24px;color:#666;letter-spacing: 1px;">
+			      	Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere <br>
+			      	possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut <br>
+			      	rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+			      </p>
+			    </div>
+		</div>
+
+	</div>
+
+	
+	<div class="dummy" style="margin:50px 0px 50px 0px;">
+
+		<div class="col-md-7 col-sm-6 text-center " style="min-height: 300px;">
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/3b6xlFVeDq8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			
+		</div>
+
+		<div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1" style='font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;padding-top:50px;padding-right: 60px;margin-left: 50px;'>
+
+			<h3 style=" font-weight: 100;color: #292929;font-size: 32px;line-height: 40px;">Design that looks less 'theme' and more you.</h3>
+			<p style='font-size: 13px;line-height: 24px; color:#666;font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;margin-top: 30px;'>
+				Foundry offers you the modularity and ease-of-use of a template with the style and aesthetic of contemporary, bespoke web design.
+            </p>   
+
+		</div>
+	</div>
+
+
+
+	<div class="col-sm-12 col-md-10 col-md-offset-1 text-center" style='font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top: 150px;'>
+
+		<h3 style="font-size: 32px; line-height: 40px; ">Get all this and more by purchasing <br>
+		a copy of Foundry today.</h3>
+		
+	</div>
+
+
+	<div class="row text-left" style='margin-bottom:150px; margin-top: 50px;'>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+			 		
+			 		
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 28px;border: 1px solid #f0f0f0;background-color: #f8f8f8;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:-10px;font-weight:300;line-height: 48px;">80<span style="font-size: 28px;top:0px;">+</span></h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;">PAGE TEMPLATES</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				        Pre-made HTML page templates including fully realized shop, blog and portfolio layouts.
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+			 		overflow: hidden;
+			 		
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 28px;border: 1px solid #f0f0f0;background-color: #f8f8f8;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:-10px;font-weight:300;line-height: 48px;">80<span style="font-size: 28px;top:0px;">+</span></h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;">LAYOUT POSSIBILITIES</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				       With tons of purpose-built content blocks, colors and fonts, Foundry presents a mind-boggling number of combinations. Test drive the builder now!
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+			 		
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 28px;border: 1px solid #f0f0f0;background-color: #f8f8f8;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:10px;font-weight:300;line-height: 48px;">Concepts</h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;">KICKSTART YOUR PROJECT
+					</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				       Fresh and unique concepts included out of the box. From portfolio to property showcase, Foundry's adaptable look is perfect for your next project.
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+				
+			 		margin-top: -0px;	
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 32px;background-color: #f8f8f8;border: 1px solid #f0f0f0;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:-10px;font-weight:300;line-height: 48px;">One / Multi</h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;">SUIT YOURSELF</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				        Capabilities for one and multi-page are built right in. Create a one page scrolling site with ease in Variant Page Builder.
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+			      	margin-top: 25px;
+			 		
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 32px;background-color: #f8f8f8;border: 1px solid #f0f0f0;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:-10px;font-weight:300;line-height: 48px;">Page Builder</h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;margin-top: 20px;">INTUITIVE & POWERFUL</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				      We've worked hard to bring you a page builder that speeds up your workflow, leaving more time for your to experiment with layout combinations.
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-lg-4 col-xs-12" 
+			 style='
+			 	
+			 		margin-top: 25px;
+			 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			 		top: 0px;' >
+
+				<div style="padding: 32px;background-color: #f8f8f8;border: 1px solid #f0f0f0;"> 		
+
+					<h2 style="color:#47b475;font-size: 40px; margin-bottom:10px;font-weight:300;line-height: 48px;">Support</h2>
+					<h6 style="color:#47b475;letter-spacing: 2px; font-weight: 700;margin-bottom: 24px;">TIMELY & PERSONABLE
+					</h6>
+					<p style="font-weight: 400 !important; overflow: hidden; font-size: 13px; color:#666;line-height: 24px;">
+				       Receive included support with your purchase via our dedicated support forum. We aim to assist you in plain English as quickly as possible.
+				     </p>
+
+			    </div> 
+			
+		</div>
+
+		
+		
+	</div>
+
+
+	<div class=" col-md-12 col-sm-12 above-footer" 
+			style='width:100% ;
+				   height:580px;
+				   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+				   margin-top:90px;
+				   color:#fff;
+				   margin-right: 0px;'>
+
+		<div class="layer" style="height:580px;width: 100%;margin-left: -16px;">		   
+			<div class="container "style="transform:translate3d(0px, 79.0312px, 0px);">
+				
+				<div class="row" style='font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;'>
+
+					<div class="col-sm-6 col-md-5 text-right text-center-xs">
+						<h1 style="font-size: 72px; line-height: 80px;  font-weight: 100;">10,000+</h1>
+						<p style="letter-spacing: 2px; font-weight: 700;">CUSTOMERS USING OUR TEMPLATES</p>
+					</div>
+
+					<div class="col-md-2 text-center hidden-sm hidden-xs" style="font-size: 80px;">
+						<i class="fa fa-exchange"></i>
+					</div>
+
+					<div class="col-sm-6 col-md-5 text-center-xs">
+						<h1 style="font-size: 72px; line-height: 80px;  font-weight: 100;">Limitless</h1>
+						<p style="letter-spacing: 2px; font-weight: 700;">LAYOUT POTENTIAL USING FOUNDRY</p>
+					</div>
+
+				</div>
+
+				<div class="row" style='padding-top:20px; font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;  '>
+
+					<div class="col-sm-12 col-md-8 col-md-offset-2 text-center" style="">
+						<h3 style="font-size: 32px;  line-height: 40px;">
+						Authentic, handcrafted design that gives your  site subtle, confident appeal.</h3>
+
+						<div style="padding-top: 40px;">
+						<button class="build-bttn-reverse" style="letter-spacing: 1px;margin-top: 20px;"> START EXPLORING</button>
+						</div>
+					</div>
+						
+				</div>
+
+			</div>	
+		</div>
+
+	</div>
+
+
+	<div class=" col-md-12 col-sm-12 col-xs-12" 
+			style='width:100% ;
+			overflow-x: none;
+			overflow-y: hidden;
+				   background-color: #292929;	
+				   height:500px;
+				   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				   color:#fff;
+				   padding-top: 50px;'>
+
+
+		
+		<div class="col-lg-3 col-md-3 col-sm -12 col-xs-12" style='font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; '>
+
+			<h2 style="color:#fff; font-size: 24px;padding-bottom: 15px;  line-height: 24px;letter-spacing: 2px; font-weight: 700;  text-align:left;padding-left: 30px; margin-bottom: 12px;">
+				FOUNDRY
+			</h2>
+
+			
+			
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm -12 col-xs-12" style='font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; '>
+
+			<h2 style="color:#fff; font-size: 13px;border-bottom: 1px solid #555555;padding-bottom: 15px;  line-height: 24px;letter-spacing: 2px; font-weight: 700;  margin-bottom: 12px;">
+				RECENT POSTS
+			</h2>
+
+			<a href="#" style="text-decoration: none; color:#fff;font-weight: bold;font-size: 13px;cursor: pointer;">Hugging pugs is super trendy</a>
+			<span><i class="	fa fa-arrow-right" style="padding-left: 5px;font-weight: 200;color:#fff;"></i></span>
+			<p style="color:#fff;padding-top:5px; ">February 14, 2015</p>
+
+			<div style="margin-top:20px;">
+				<a href="#" style="text-decoration: none; color:#fff;font-weight: bold;font-size: 13px;cursor: pointer;">Spinning vinyl is oh so cool</a>
+			<span><i class="	fa fa-arrow-right" style="padding-left: 5px;font-weight: 200;color:#fff;"></i></span>
+			<p style="color:#fff;padding-top:5px; ">February 9, 2015</p>
+			</div>
+
+			<div style="margin-top:20px;">
+				<a href="#" style="text-decoration: none; color:#fff;font-weight: bold;font-size: 13px;cursor: pointer;">Superior theme design by pros</a>
+			<span><i class="	fa fa-arrow-right" style="font-weight: 200;padding-left: 5px;color:#fff;"></i></span>
+			<p style="color:#fff;padding-top:5px; ">January 27, 2015</p>
+			</div>	
+			
+		</div>
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style='font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; '>
+
+			<h2 style="color:#fff; font-size: 13px;border-bottom: 1px solid #555555;padding-bottom: 15px;  line-height: 24px;letter-spacing: 2px; font-weight: 700;  margin-bottom: 12px;">
+				LATEST UPDATES
+			</h2>
+
+			<div style="color:#fff; font-size: 13px; font-weight: 500; line-height: 24px;">
+				<span><i class=" fa fa-twitter"></i></span>
+				<span style="text-align: left;padding-left: 5px;">Check out the chat layout for our upcoming project management template, available soon at Bootstrap Themes: </span>
+
+				<a href="" style="text-decoration: none;color:#fff;">
+					https://dribbble.com/shots/4590667-Project-Management-Chat-Layout?utm_source=Twitter_Shot&utm_campaign=craiggarner&utm_content=Project%20Management%20-%20Chat%20Layout&utm_medium=Social_Share…
+				</a>
+
+			</div>
+
+			<div style="color:#fff; font-size: 13px; font-weight:5600; line-height: 24px;margin-top: 20px;">
+				<span><i class=" fa fa-twitter"></i></span>
+				<span style="text-align: left;padding-left: 5px;">
+					Bootstrap has a new themes marketplace at 
+				 </span>
+
+				<a href="" style="text-decoration: none;color:#fff;">
+					http://themes.getbootstrap.com 
+				</a>
+
+			</div>
+			
+		</div>
+
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+			<h2 style="color:#fff; font-size: 13px;border-bottom: 1px solid #555555;padding-bottom: 15px;line-height: 24px;letter-spacing: 2px; font-weight: 700;  margin-bottom: 12px;">
+				INSTAGRAM
+			</h2>
+
+			<div class="instafeed" data-user-name="mrareweb">
+               
+                <ul style="display: inline-block;">
+                	<li style="display: inline-block;margin-left: -38px;">
+                		<a title="A snap of an upcoming portfolio template" target="_blank" href="https://www.instagram.com/p/BGdwg0Br3Wh/">
+                			<img style="width: 80px; vertical-align: middle;"src="https://scontent.cdninstagram.com/vp/0da1d729c255ce42c9ad91011cd67fb4/5BC30DEC/t51.2885-15/s320x320/e35/13398476_758284670980565_1964434862_n.jpg">
+                		</a>
+                	</li>
+                	<li style="display: inline-block;">
+                		<a title="Cooking up some colour scheme goodness on our latest" target="_blank" href="https://www.instagram.com/p/seFrrSL3e7/">
+                			<img style="width:80px; vertical-align: middle; "src="https://scontent.cdninstagram.com/vp/bab8a2bbe7fb0bd4fc3101802573f02a/5BC01B77/t51.2885-15/s320x320/e15/10598518_868054983219549_1823485118_n.jpg">
+                		</a>
+                	</li>
+                	<li style="display: inline-block;">
+                		<a title="A snap of our latest template 'Pivot'" target="_blank" href="https://www.instagram.com/p/sPR7HPr3eI/">
+                			<img style="width: 80px; vertical-align: middle;"src="https://scontent.cdninstagram.com/vp/f19d452c34f338282d5671d100344a69/5BA3B14C/t51.2885-15/s320x320/e15/10632214_722819361118920_1555795075_n.jpg">
+                		</a>
+                	</li>
+                </ul>
+             </div>
+			
+		</div>
+
+		<div class=" row" style="margin-bottom:-60px;">
+		
+			<div class="col-sm-6" style="margin-top: 80px;padding-left: 60px;">
+				<p style="color:#979797;font-size: 13px;">© Copyright 2016 - Medium Rare</p>
+			</div>
+
+			<div class="col-sm-6" style="text-align: right;padding-right: 100px;margin-top: 80px;">
+
+				<span style="padding-left:20px; color:#979797;cursor: pointer;">
+					<i class="fa fa-twitter"></i>
+				</span>
+
+
+				<span style="padding-left:20px;color:#979797;cursor: pointer;">
+					<i class="fa fa-facebook"></i>
+				</span>
+
+				<span style="padding-left:20px;color: #979797;cursor: pointer;">
+					<i class="fa fa-dribbble"></i>
+				</span>
+
+				<span style="padding-left:20px; color: #979797;cursor: pointer;">
+					<i class="fa fa-vimeo"></i>
+				</span>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+
+	
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+
