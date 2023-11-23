@@ -1,0 +1,280 @@
+html,body{
+	overflow-x: hidden;
+}
+.body{
+	margin:0;
+	padding: 0;
+}
+
+ul > li.active .toggle-tabs i{
+	color:#49b475 !important;
+}
+
+ul > li.active .toggle-p {
+	color:#49b475 !important;
+}
+
+.head-name{
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	max-width: 100%;
+	white-space: normal;
+}
+
+.m-b-30{
+	margin-bottom: 30px;
+}
+
+.m-b-40{
+	margin-bottom: 40px;
+}
+
+.m-b-50{
+	margin-bottom: 50px;
+}
+
+.m-b-80{
+	margin-bottom: 80px;
+}
+
+.m-t-80{
+	margin-top: 80px;
+}
+
+.down-icon{
+	position: absolute;
+	font-size: 20px !important;
+	padding-left: 8px;
+	margin-top: -5px;
+}
+
+.large{
+	font-size: 72px;
+	line-height: 80px;
+	font-weight: 100;
+}
+.para-text{
+		font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.hello {
+	background-position: center;
+	background-size: cover;
+	background-image: url("image1.jpg");
+}
+
+.hi {
+	background-position: center;
+	background-size: cover;
+	background-image: url("image7.jpg");
+}
+
+.list-inline{
+	display: inline-block;
+}
+
+.list-none{
+	list-style: none;
+}
+
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float:right;
+}
+
+.pr{
+	position: relative;
+}
+
+.pa{
+	position: absolute;
+}
+
+.bdr-all-1{
+	border-radius: 1px solid #ccc !important;
+}
+.bdr-b-1{
+	border-bottom: 1px solid #ccc !important;
+}
+.bdr-l-1{
+	border-left:1px solid rgba(255, 255, 255, 0.2);
+}
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-image{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top:50%;
+	left:50%;
+}
+
+.btn-new{
+	border: 3px solid #f5f5f5;
+	border-radius: 0;
+	padding-left: 30px;
+	overflow: hidden;
+	padding-right: 30px;
+	color:white;
+	background-color: transparent;
+}
+
+.btn-new:hover{
+	border: 3px solid #f5f5f5;
+	overflow: hidden;
+	border-radius: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	color:white;
+	background-color: #f5f5f5;
+}
+
+
+
+.build-bttn{
+	border:2px solid #47b475 !important;
+	color:#47b475;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: transparent;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn:hover{
+	color:white !important;
+	font-weight: bold !important;
+	background-color: #47b475;
+}
+
+
+.build-bttn-reverse{
+	border:2px solid #47b475 !important;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: #47b475;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn-reverse:hover{
+	color:#666 !important;
+	font-weight: bold !important;
+	background-color: #fff;
+	border:2px solid #fff !important;
+}
+
+
+.build-bttn-black{
+	border:2px solid #ffffff !important;
+	color:#ffffff;
+	font-size: 12px;
+	border-radius: 0 !important;
+	text-transform: uppercase;
+	padding:15px 35px 15px 35px !important;
+	background-color: transparent;
+	font-weight: bold !important;
+	font-size: 13px !important;
+
+}
+
+.build-bttn-black:hover{
+	color:black !important;
+	font-weight: bold !important;
+	background-color: #ffffff;
+}
+
+.above-footer{
+	background-position: center;
+	background-size: cover;
+	background-image: url("image20.jpg");
+	position: relative;
+
+}
+
+.layer {
+	background-color:#363748b8;
+	position: absolute;
+
+}
+
+.container-fluid-section{
+	background-color: #333;
+	position:fixed; 
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	padding: 10px; 
+	border-bottom: 1px solid #565656;
+	z-index:999;
+}
+
+
+.header-title{
+	padding-left: 30px;
+	font-size: 25px; 
+	font-weight:bold;
+	color:#f7f7f7;
+}
+
+.sleek-img{
+	width:700px;
+	height:420px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sleek-img-2{
+	margin-left:15px;
+	margin-right:-200px;
+	width:600px;
+	height:520px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 600px) {
+	.container-fluid-section{
+		height: 55px;
+	}
+
+	.large{
+		font-size: 35px;
+	}
+
+	.sleek-img{
+		width: 350px !important;
+		height: auto;
+	}
+
+	.sleek-img-2{
+		width: 350px !important;
+		height: auto;
+		margin: auto;
+	}
+	
+	iframe{
+		width: 350px;
+		height: 200px;
+	}
+}
